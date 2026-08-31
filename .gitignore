@@ -1,0 +1,7 @@
+node_modules/
+dist/
+coverage/
+
+# Local demo credentials and live production webhook configuration.
+demo/DEMO_GENERIC_WEBHOOK.md
+demo/DEMO_TEST_ACCOUNTS.md
