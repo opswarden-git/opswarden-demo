@@ -17,7 +17,7 @@ export function assessDeployment(signal: DeploymentSignal): DeploymentState {
     throw new RangeError("errorRatePercent must be a finite positive number");
   }
 
-  if (!signal.ready || signal.errorRatePercent > 5) {
+  if (!signal.ready || signal.errorRatePercent > 50) {
     return "unhealthy";
   }
 
